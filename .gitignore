@@ -1,0 +1,32 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de ambiente
+.env
+
+# Dados locais
+data/raw/*
+data/processed/*
+data/temp/*
+
+# Manter a estrutura das pastas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/temp/.gitkeep
+
+# Github
+.github
+
+*.json
+data/external/
